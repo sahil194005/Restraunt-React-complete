@@ -1,18 +1,24 @@
-
-
+import { useState } from "react";
 import Header from "./Components/Layout/Header";
 import Meals from "./Components/Meals/Meals";
+import Cart from "./Components/Cart/Cart";
 
 function App() {
-  return (
-    <div>
-      <Header/>
-      <main>
-        <Meals/>
-      </main>
-      <h2>Let's get started!</h2>
-    </div>
-  );
+	const [isCart, setCart] = useState(true);
+	return (
+		<div>
+			<Cart
+				cartStatus={isCart}
+				setCartStatus={(val) => {
+					setCart(val);
+				}}
+			/>
+			<Header />
+			<main>
+				<Meals />
+			</main>
+		</div>
+	);
 }
 
 export default App;

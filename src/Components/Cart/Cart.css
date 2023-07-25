@@ -1,0 +1,83 @@
+.cart-content {
+
+    /* border: 2px solid black; */
+    padding-top: 1rem;
+    border-bottom: 2px solid grey;
+    height: 4rem;
+    width: 99%;
+}
+
+.cart-content--name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-content--name__button {
+    width: 6rem;
+}
+
+.cart-content--name__button button {
+    width: 2rem;
+    background-color: white;
+    border: 1px solid maroon;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    margin-right: 1rem;
+
+}
+
+.cart-content--price {
+    color: maroon;
+    font-weight: bold;
+    font-size: 1.5rem;
+    /* border:1px solid green */
+
+}
+
+.cart-content--price span {
+    margin-right: 2rem;
+
+}
+
+.cart-content--price input {
+    width: 2rem;
+    height: 1.5rem;
+    border-radius: 7px;
+    border: 1px solid grey;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.cart-total {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-total-buttons{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid black; */
+
+}
+
+.cart-total-buttons button{
+    width:5rem;
+    margin-left: 2rem;
+    height:2rem;
+    border-radius: 18px;
+}
+.cart-close-btn{
+border:1px solid maroon;
+background-color: white;
+color:maroon;
+font-weight: bold;
+}
+.cart-order-btn{
+    border:1px solid maroon;
+    background-color: maroon;
+    color:white;
+    font-weight: bold;
+}
