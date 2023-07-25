@@ -61,7 +61,7 @@ const Cart = (props) => {
 			<h1>$88.99</h1>
 			</div>
 			<div className="cart-total-buttons">
-				<button className="cart-close-btn">Close</button>
+				<button className="cart-close-btn" onClick={()=>{props.setCartStatus(false)}}>Close</button>
 				<button className="cart-order-btn">Order</button>
 			</div>
 

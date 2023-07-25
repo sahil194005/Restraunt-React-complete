@@ -6,7 +6,7 @@ const Header = (props) => {
 		<React.Fragment>
 			<header>
 				<h1>DownStairs </h1>
-				<HeaderCartButton />
+				<HeaderCartButton setCartStatus={props.setCartStatus}/>
 			</header>
 			<div>
 				<img

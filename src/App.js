@@ -5,15 +5,16 @@ import Cart from "./Components/Cart/Cart";
 
 function App() {
 	const [isCart, setCart] = useState(true);
+	const cartStateHandler = (val) => {
+		setCart(val);
+	};
 	return (
 		<div>
 			<Cart
 				cartStatus={isCart}
-				setCartStatus={(val) => {
-					setCart(val);
-				}}
+				setCartStatus={cartStateHandler}
 			/>
-			<Header />
+			<Header setCartStatus={cartStateHandler} />
 			<main>
 				<Meals />
 			</main>
