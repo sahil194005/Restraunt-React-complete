@@ -1,0 +1,23 @@
+button {
+    border :0px solid maroon;
+    display: flex;
+    height:3rem;
+    width:11rem;
+    border-radius: 17px;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(63,18,0);
+}
+
+button span{
+   
+    width:20%;
+    color:white;
+    font-size: 1.5rem;
+}
+
+button span div{
+    border-radius: 90%;
+    border:1px solid white;
+    background-color:rgb(118,32,9) ;
+}

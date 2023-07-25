@@ -8,21 +8,23 @@ header {
     top: 0;
     left: 0;
     display: flex;
-    
-    width: 80%;
+    width: 90%;
     height: 5rem;
     justify-content: space-between;
     align-items: center;
-    background-color: maroon;
+    background-color: rgb(118, 32, 9);
     color: white;
-    padding: 0 10%;
+    padding: 0 5%;
     box-shadow: 0 2px 8px black;
-    z-index:10; 
+    z-index: 10;
 }
 
 img {
+  
+    margin-top: 5rem;
     height: 15rem;
     width: 100%;
     object-fit: cover;
     overflow: hidden;
+    z-index:1;
 }

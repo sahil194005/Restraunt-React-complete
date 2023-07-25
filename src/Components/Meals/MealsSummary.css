@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+}
+h2 {
+    text-align: center;
+}
+
+.MealSummary {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    width: 60%;
+    margin: 0px auto 0;
+    height: 20vh;
+    background-color: rgb(114, 66, 52);
+    color: rgb(247, 242, 242);
+    text-align: center;
+    justify-content:space-around;
+    position: relative;
+    bottom: 2rem;
+    padding: 5px;
+    box-shadow: 0px 4px 5px grey;
+    
+}
+
+.MealSummary p {
+   font-size: 100%;
+}
