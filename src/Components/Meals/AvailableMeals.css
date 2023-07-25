@@ -1,0 +1,30 @@
+.mealList {
+    background-color: white;
+    margin: 0 auto 0;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.mealList ul {
+    list-style: none;
+}
+
+.mealList li {
+
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid rgb(221, 218, 218);
+    padding: 0.7rem;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.description {
+    font-style: italic;
+}
+
+.price {
+    color: rgb(224, 24, 24);
+}
