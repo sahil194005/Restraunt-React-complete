@@ -1,0 +1,45 @@
+ .Form {
+
+     padding: 0.7rem;
+     /* border:1px solid black; */
+     width: 40%;
+     /* margin-left:4vw; */
+ }
+
+ .Form form {
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     align-items: flex-end;
+ }
+
+ .Form input {
+     width: 3rem;
+     height: 2vh;
+     margin-left: 1rem;
+ }
+
+ .Form label {
+     font-weight: bold;
+
+ }
+
+ .Form section {
+     /* border:1px solid black; */
+     display: flex;
+     justify-content: flex-end;
+     /* padding-right: 1vw; */
+     width: 100%
+ }
+
+ Form button {
+     height: 1.6rem;
+     width: 5em;
+     border-radius: 15px;
+     background-color: rgb(118, 32, 9);
+     color: white;
+     font-weight: bold;
+     /* margin-top: 0.5rem; */
+
+
+ }

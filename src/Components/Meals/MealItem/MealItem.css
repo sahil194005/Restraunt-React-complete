@@ -1,0 +1,34 @@
+.mealItem--li__details {
+    /* border:1px solid green; */
+    display: flex;
+    flex-direction: column;
+    padding: 0.7rem;
+}
+.mealItem--li{
+    border-bottom: 3px solid rgb(221, 218, 218);
+
+}
+
+.name {
+    font-weight: bold;
+}
+
+.description {
+    font-style: italic;
+}
+
+.price {
+    color: rgb(224, 24, 24);
+}
+
+
+.mealItem--li{
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+/* .mealItem--li {
+    border:1px solid red;
+} */

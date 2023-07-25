@@ -1,28 +1,29 @@
-button {
-    border :0px solid maroon;
+.Header-cart {
+    border: 0px solid maroon;
     display: flex;
-    height:3rem;
-    width:11rem;
+    height: 3rem;
+    width: 11rem;
     border-radius: 17px;
     justify-content: space-around;
     align-items: center;
-    background-color:rgb(63,18,0);
+    background-color: rgb(63, 18, 0);
 }
 
-button span{
-   
-    width:20%;
-    color:white;
+.Header-cart span {
+
+    width: 20%;
+    color: white;
     font-size: 1.5rem;
-    background-color: rgb(63,18,0);
+    background-color: rgb(63, 18, 0);
 }
-button span svg{
-    background-color: rgb(63,18,0);
+
+.Header-cart span svg {
+    background-color: rgb(63, 18, 0);
 
 }
 
-button span div{
+.Header-cart span div {
     border-radius: 90%;
-    border:1px solid white;
-    background-color:rgb(118,32,9) ;
+    border: 1px solid white;
+    background-color: rgb(118, 32, 9);
 }
