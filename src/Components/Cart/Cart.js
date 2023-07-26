@@ -16,34 +16,42 @@ const Cart = (props) => {
 	Modal.setAppElement("#root");
 	const cartCtx = useContext(CartContext);
 	const Item = cartCtx.items.map((item) => {
+		const cartItemAddHandler = (e) => {
+			let obj = { ...item, amount: 1 };
+			cartCtx.addItem(obj);
+		};
+		const cartItemRemoverHandler = (e) => {
+			cartCtx.removeItem(item.id)
+		};
 		return (
 			<div className="cart-content" key={item.id}>
 				<div className="cart-content--name">
 					<h2>{item.name}</h2>
 					<div className="cart-content--name__button">
-						<button>-</button>
-						<button>+</button>
+						<button onClick={cartItemRemoverHandler}>
+							-
+						</button>
+						<button onClick={cartItemAddHandler}>+</button>
 					</div>
 				</div>
 				<div className="cart-content--price">
 					<span>{item.price} $</span>
-					<input value="*4" readOnly></input>
+					<input value={item.amount} readOnly></input>
 				</div>
 			</div>
 		);
 	});
 	const total_amount = cartCtx.totalAmount.toFixed(2);
-	const hasItems = cartCtx.items.length>0
+	const hasItems = cartCtx.items.length > 0;
 	return (
 		<Modal
 			style={customStyles}
 			isOpen={props.cartStatus}
 			onRequestClose={() => props.setCartStatus(false)}>
-			
 			{Item}
 			<div className="cart-total">
 				<h1>Total Amount</h1>
-				<h1>${ total_amount}</h1>
+				<h1>${total_amount}</h1>
 			</div>
 			<div className="cart-total-buttons">
 				<button
@@ -53,7 +61,9 @@ const Cart = (props) => {
 					}}>
 					Close
 				</button>
-			{hasItems&&	<button className="cart-order-btn">Order</button>}
+				{hasItems && (
+					<button className="cart-order-btn">Order</button>
+				)}
 			</div>
 		</Modal>
 	);
