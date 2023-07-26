@@ -9,7 +9,6 @@
 		"@testing-library/jest-dom": "^5.11.6",
 		"@testing-library/react": "^11.2.2",
 		"@testing-library/user-event": "^12.5.0",
-		"gh-pages": "^5.0.0",
 		"react": "^18.0.0",
 		"react-dom": "^18.0.0",
 		"react-modal": "^3.16.1",
