@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Restraunt-React-complete/static/css/main.b4ddb003.css",
+    "main.js": "/Restraunt-React-complete/static/js/main.ef02b688.js",
+    "index.html": "/Restraunt-React-complete/index.html",
+    "main.b4ddb003.css.map": "/Restraunt-React-complete/static/css/main.b4ddb003.css.map",
+    "main.ef02b688.js.map": "/Restraunt-React-complete/static/js/main.ef02b688.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4ddb003.css",
+    "static/js/main.ef02b688.js"
+  ]
+}
