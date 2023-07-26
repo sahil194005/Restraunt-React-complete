@@ -16,7 +16,7 @@ const DUMMY_MEALS = [
 	},
 	{
 		id: "m3",
-		name: "Pizza",
+		name: "Veg Pizza",
 		description:
 			"Delicious pizza with a variety of veggies",
 		price: 18.5,
@@ -30,7 +30,7 @@ const DUMMY_MEALS = [
 	},
 	{
 		id: "m5",
-		name: "Pasta",
+		name: "Pasta Alfredo",
 		description:
 			"Creamy Alfredo sauce with pasta and garlic bread",
 		price: 12.99,
