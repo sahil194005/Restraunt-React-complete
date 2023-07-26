@@ -10,21 +10,30 @@ const DUMMY_MEALS = [
 	},
 	{
 		id: "m2",
-		name: "dumplings",
-		description: "Finest fish and veggies",
-		price: 22.99,
+		name: "Sandwich",
+		description: "Grilled chicken with fresh vegetables",
+		price: 14.99,
 	},
 	{
 		id: "m3",
-		name: "oyesters",
-		description: "Finest fish and veggies",
-		price: 22.99,
+		name: "Pizza",
+		description:
+			"Delicious pizza with a variety of veggies",
+		price: 18.5,
 	},
 	{
 		id: "m4",
-		name: "shrimps",
-		description: "Finest fish and veggies",
-		price: 22.99,
+		name: " Burger",
+		description:
+			"Juicy beef patty with cheese and toppings",
+		price: 16.75,
+	},
+	{
+		id: "m5",
+		name: "Pasta",
+		description:
+			"Creamy Alfredo sauce with pasta and garlic bread",
+		price: 12.99,
 	},
 ];
 const MealItem = () => {
@@ -43,7 +52,7 @@ const MealItem = () => {
 					mealobj={{
 						name: meal.name,
 						price: meal.price,
-						id:meal.id
+						id: meal.id,
 					}}
 				/>
 			</li>

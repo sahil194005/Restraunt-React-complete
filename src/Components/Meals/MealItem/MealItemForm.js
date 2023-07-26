@@ -14,7 +14,7 @@ const MealItemForm = (props) => {
 			amount: enteredAmount,
 			
 		};
-		console.log(finalobj)
+		amountRef.current.value = "";
 		cartctx.addItem(finalobj);
 	};
 	return (
